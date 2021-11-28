@@ -27,7 +27,6 @@ void saludarConArgumentoOpcional2(String mensaje, [String palabra = 'Mundo']) {
 // De esta manera puedo definir argumentos que no requieran que sean enviados
 // en la posición en la que fueron definidos
 // named arguments
-void saludar2(
-    {String? nombre, String mensaje = 'Hola', required String apellido}) {
+void saludar2({ String? nombre, String mensaje = 'Hola', required String apellido }) {
   print('$mensaje $nombre $apellido');
 }

@@ -10,7 +10,7 @@ void main() async {
   
   getNombre( '5' ).then((data) => print(data));
   getNombre( '3' ).then(print);
-  // Si tengo una funcion que solo va a recivir un argumento, y ese argumento es
+  // Si tengo una funcion que solo va a recibir un argumento, y ese argumento es
   // el que me retorna el then, entonces puedo omitirlo y solo pasar la referencia
   // a la función. :O
   
